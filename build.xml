@@ -118,4 +118,16 @@
         </java>
     </target>
 
+    <target name="bookPublisherClient" depends="compile">
+        <echo>BookPublisherClient -- ABC ABC ABC --</echo>
+        <echo>To configure host, port, username, password and No. of events use -Dhost=xxxx -Dport=xxxx -Dusername=xxxx -Dpassword=xxxx</echo>
+        <java classname="org.example.bookpublisher.BookPublisherClient"
+              classpathref="javac.classpath" fork="true">
+            <arg value="${host}"/>
+            <arg value="${ThriftPort}"/>
+            <arg value="${username}"/>
+            <arg value="${password}"/>
+        </java>
+    </target>
+
 </project>
