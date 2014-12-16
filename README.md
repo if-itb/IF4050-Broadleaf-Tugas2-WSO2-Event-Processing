@@ -28,6 +28,7 @@
 </ul>
 </li>
 <li><a href="#eksplorasi-cep">Eksplorasi CEP</a></li>
+<li><a href="#slide-ppt-wso2-cep">Slide PPT WSO2 CEP</a></li>
 </ul>
 </li>
 </ul>
@@ -99,3 +100,9 @@ Dalam melakukan eksplorasi, kami menggunakan contoh untuk memulai memahami cara 
 <li>Jalankan <code>ant bookPublisherClient</code></li>
 <li>Amati perubahan yang terjadi di database</li>
 </ol>
+
+
+
+<h2 id="slide-ppt-wso2-cep">Slide PPT WSO2 CEP</h2>
+
+<p><a href="https://copy.com/ZMEDyd8RzOIuYrpG/pplservice_wso2cep.pptx">Download slide ppt WSO2 CEP</a></p>
